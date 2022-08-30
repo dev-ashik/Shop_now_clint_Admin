@@ -42,14 +42,14 @@ const NewUser = () => {
           </div>
         </div>
         <div className="newUserItem">
-            <label>Active</label>
-            <select className="newUserSelcet" name="active" id="active">
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-            </select>
+          <label>Active</label>
+          <select className="newUserSelcet" name="active" id="active">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
         </div>
         <div className="newUserItem">
-            <button className="newUserButton">Create</button>
+          <button className="newUserButton">Create</button>
         </div>
       </form>
     </div>

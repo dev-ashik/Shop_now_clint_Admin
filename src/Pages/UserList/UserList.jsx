@@ -63,7 +63,7 @@ const UserList = () => {
         rows={data}
         disableSelectionOnClick
         columns={columns}
-        pageSize={8}
+        pageSize={10}
         rowsPerPageOptions={[5]}
         checkboxSelection
       />
